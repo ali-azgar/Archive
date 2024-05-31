@@ -579,3 +579,29 @@ h6,
         padding: 0px 50px;
     }
   }
+
+  .ps-4 .text-primary{
+    font-size: 21px;
+  }
+
+/*** Language Code ***/
+
+  #google_translate_element { height: 43px !important; overflow: hidden !important; }
+
+
+  .goog-te-gadget .goog-te-combo{
+    padding: 12px 10px;
+    border-radius: 8px;
+  }
+
+  .VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none; 
+  }
+
+  .goog-te-gadget .goog-te-combo{
+    margin: 0px 0px !important;     
+  }
+
+  body {
+    top: 0px !important;
+}
