@@ -9,7 +9,7 @@
     <meta content="General Trading Website" name="description">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/Sendan-Favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/img/Sendan-Favicon.svg">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,14 +42,15 @@
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
-            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+            <div class="col-lg-6 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <small class="me-4 text-light"><i class="fa fa-map-marker-alt me-2"></i>1420 Tamani Tower, Dubai, UAE</small>
                     <small class="me-4 text-light"><i class="fa fa-phone-alt me-2"></i>+971 567471122</small>
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@sendan.me</small>
                 </div>
             </div>
-            <div class="col-lg-4 text-center text-lg-end">
+
+            <div class="col-lg-6 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <a class="btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
                     <a class="btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
@@ -73,19 +74,20 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
-                            <a href="#" class="dropdown-item">Heavy Equipment</a>
-                            <a href="#" class="dropdown-item">Fire Trucks</a>
-                            <a href="#" class="dropdown-item">Tanker Trucks</a>
+                            <a href="services.html#heavy-equipment" class="dropdown-item">Heavy Equipment</a>
+                            <a href="services.html#fire-trucks" class="dropdown-item">Fire Trucks</a>
+                            <a href="services.html#tanker-trucks" class="dropdown-item">Tanker Trucks</a>
                         </div>
                     </div>
-                    <a href="#" class="nav-item nav-link">Contact</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
      
                 <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-5">Partner With Us</a>
+                <!-- <div id="google_translate_element" style="margin-left: 20px;"></div> -->
             </div>
         </nav>
 
@@ -136,24 +138,6 @@
     </div>
     <!-- Navbar & Carousel End -->
 
-
-    <!-- Full Screen Search Start -->
-    <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
-                <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center justify-content-center">
-                    <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Full Screen Search End -->
 
 
     <!-- Facts Start -->
@@ -680,7 +664,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-geo-alt text-primary me-2"></i>
-                                <p class="mb-0" style="color: #343434;">123 Street, New York, USA</p>
+                                <p class="mb-0" style="color: #343434;">1420 Tamani Tower, Dubai, UAE</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
@@ -741,6 +725,16 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+     <!-- Google Translate -->
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en,ar', includedLanguages : 'ar,en,en'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- Javascript -->
     <script src="js/main.js"></script>
